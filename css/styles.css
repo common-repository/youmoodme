@@ -1,0 +1,321 @@
+/*
+    Youmood.me plugin styles
+*/
+
+#ymm-settings {
+
+}
+
+#ymm-settings .page-title-wrapper {
+    margin: 25px 0 10px 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+#ymm-settings .page-title-wrapper img {
+    display:block;
+    float:left;
+    margin-right: 5px;
+}
+
+#ymm-settings .page-title-wrapper .separator {
+    display:block;
+    float:left;
+    margin-right: 5px;
+    line-height: 37px;
+    font-size: 17px;
+}
+
+#ymm-settings .page-title-wrapper .page-title {
+    line-height: 37px;
+    font-size: 17px;
+    padding: 0;
+}
+
+#ymm-settings .page-info-wrapper {
+    margin: 20px 0;
+}
+
+#ymm-settings .page-info-wrapper p {
+    margin: 0.5em 0;
+}
+
+
+#ymm-settings ul#ymm-settings-tabs {
+    margin:10px 0 20px 0;
+    display:block;
+}
+
+#ymm-settings ul#ymm-settings-tabs li {
+    margin:0;
+}
+
+#ymm-settings ul#ymm-settings-tabs li a {
+    display: block;
+    font-weight: normal;
+    background: #555666;
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-decoration:none;
+}
+
+#ymm-settings form #features-wrapper {
+    position:relative;
+    overflow:hidden;
+}
+
+#ymm-settings form .main-feature {
+    float:left;
+    width:49%;
+    height: 100%;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    padding:10px 3% 10px 3%;
+    background:#FFF;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    opacity: 0.5;
+}
+
+#ymm-settings form .main-feature.active,
+#ymm-settings form .main-feature:hover {
+    opacity: 1;
+}
+
+#ymm-settings form .main-feature .illustration {
+    width: 40%;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 5px;
+    float: left;
+    margin: 0 20px 5px 0;
+    background: #E4E4E4;
+}
+
+#ymm-settings form .main-feature.active .illustration {
+    background: #e25c4e;
+}
+
+#ymm-settings form .main-feature .description-text {
+    width:58%;
+    float:right;
+}
+
+
+#ymm-settings form .form-error,
+#ymm-settings .text-error {
+    display:none;
+    color: #a94442;
+    font-size: 12px;
+}
+
+#ymm-settings form .form-success {
+    display:none;
+    color: #3c763d;
+    font-size: 12px;
+}
+
+#ymm-settings form .form-about {
+    font-size: 12px;
+}
+
+
+#ymm-settings form .main-feature label {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+#ymm-settings form .main-feature label.famos {
+    font-size: 16px;
+}
+
+#ymm-settings form .main-feature label:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    background-color: #aaa;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+    -moz-box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+    -webkit-box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+}
+
+#ymm-settings form .main-feature label.label-radio:before {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+#ymm-settings form .main-feature input[type=text] {
+    width:100%;
+}
+
+#ymm-settings form .main-feature input[type=radio],
+#ymm-settings form .main-feature input[type=checkbox] {
+    display: none;
+}
+
+#ymm-settings form .main-feature input[type=radio]:checked + label:before {
+    content: "\2022";
+    color: #f3f3f3;
+    font-size: 30px;
+    text-align: center;
+    line-height: 18px;
+}
+
+#ymm-settings form .main-feature input[type=checkbox]:checked + label:before {
+    content: "\2713";
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    -moz-text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    -webkit-text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    font-size: 15px;
+    color: #f3f3f3;
+    text-align: center;
+    line-height: 15px;
+}
+
+#ymm-settings form input[type="submit"] {
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border:none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #e25c4e;
+    color: #fff;
+    font-size: 14px;
+}
+
+#ymm-settings form input[type="submit"]:hover {
+    background: #eb6051;
+}
+
+#ymm-settings form .main-feature .feature-options {
+    margin-top: 15px;
+    padding-top: 5px;
+    float: left;
+    display: block;
+    border-top: 1px solid #E4E4E4;
+    width: 100%;
+}
+
+#ymm-settings form .main-feature .feature-options hr {
+    border-top: 1px solid #E4E4E4;
+    border-bottom: none;
+    margin: 20px 0;
+}
+
+#ymm-settings form #comment-wrapper {
+    padding: 10px 3% 10px 3%;
+}
+
+#ymm-settings form .vertical-line {
+    display:block;
+    position: absolute;
+    left: 49%;
+    width: 3px;
+    height: 100%;
+    float: left;
+    background: #F1F1F1;
+}
+
+#ymm-settings form #form-footer {
+    float: left;
+    width: 100%;
+    background: #fafafa;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: 1px solid #EEE;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#ymm-settings form #form-footer #footer-logo img {
+    vertical-align: middle;
+}
+
+#ymm-settings form #form-footer #footer-logo:hover img {
+    opacity:0.8;
+}
+
+#ymm-settings form #form-footer .separator {
+    display: inline-block;
+    padding: 0 5px;
+    color: #b3b3b3;
+}
+
+#ymm-settings form #form-footer a {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 25px;
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+#ymm-settings form #form-footer a:hover,
+#ymm-settings form #form-footer a:active {
+    color: #999;
+}
+
+#ymm-settings form #form-footer #form-submit {
+    float: right;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+#ymm-settings form.ymm-forms {
+    width: 50%;
+    text-align: center;
+    margin: 50px auto;
+    padding: 15px 10px;
+    color: #555666;
+    background: #F6F6F6;
+    border: 1px solid #E4E4E4;
+    font-size: 14px;
+    line-height: 22px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+#ymm-settings form.ymm-forms h2 {
+    margin: 10px 0 23px 0;
+    padding: 0;
+}
+
+#ymm-settings form.ymm-forms input[type="text"],
+#ymm-settings form.ymm-forms input[type="password"]{
+    width: 220px;
+    font-size: 11px;
+    padding: 4px 5px;
+}
+
+#ymm-settings form.hidden {
+    display:none;
+}

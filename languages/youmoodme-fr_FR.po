@@ -1,0 +1,357 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: youmood.me wordpress plugin\n"
+"POT-Creation-Date: 2014-06-19 18:30+0100\n"
+"PO-Revision-Date: 2014-06-19 18:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: youmood.me <contact@youmood.me>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../settings.php:11
+msgid "Plugin settings"
+msgstr "Paramètres du plugin"
+
+#: ../settings.php:14
+msgid "Howdy!"
+msgstr "Bienvenue !"
+
+#: ../settings.php:16
+msgid "Thanks for using our plugin"
+msgstr "Merci d'avoir installé youmood.me"
+
+#: ../settings.php:17
+msgid ""
+"This plugin allows your visitors to post enriched comments everywhere on "
+"your Wordpress site."
+msgstr ""
+"Cette extension permet à vos visiteurs de poster des commentaires enrichis "
+"partout sur votre site Wordpress"
+
+#: ../settings.php:18
+msgid "For further information, you can visit our"
+msgstr "Pour de plus amples informations, vous pouvez visiter notre"
+
+#: ../settings.php:18
+msgid "website"
+msgstr "site web"
+
+#: ../settings.php:28
+msgid "Settings"
+msgstr "Paramètres du plugin"
+
+#: ../settings.php:40
+msgid "Classic comment mode"
+msgstr "Mode de commentaire classique"
+
+#: ../settings.php:44
+msgid ""
+"This mode replaces or add a comment system under your blog posts. Users can "
+"create a youmood.me account and post comments anywhere on your website."
+"Comments can be enriched with links, photos or videos."
+msgstr ""
+"Ce mode remplace ou ajoute une boîte de commentaire en bas de page. Les "
+"utilisateurspeuvent créer un compte youmood.me et poster des commentaires "
+"partout sur votre site Wordpress.Ces commentaires peuvent être enrichis à "
+"l'aide de liens, photos ou vidéos"
+
+#: ../settings.php:49 ../settings.php:119
+msgid "Define a container:"
+msgstr "Definissez un container :"
+
+#: ../settings.php:50
+msgid ""
+"This is where the plugin will be loaded. You must enter the id (#) of an "
+"HTML container"
+msgstr ""
+"Sélectionnez la class ou l'id du container dans lequel la boîte de "
+"commentaire sera chargée"
+
+#: ../settings.php:51
+msgid "If not set, the plugin will replace your default comment container."
+msgstr ""
+"Si ce champ est vide, le plugin choisira les balises de la boîte de "
+"commentaire Wordpress par défaut"
+
+#: ../settings.php:54
+msgid "ex: comment-container (without #)"
+msgstr "ex : comment-container"
+
+#: ../settings.php:58
+msgid "Number of comments per page to display:"
+msgstr "Nombre de commentaires à afficher:"
+
+#: ../settings.php:72
+msgid "Synchronize youmood.me comments with wordpress comments:"
+msgstr ""
+"Synchroniser les commentaires youmood.me avec les commentaires Wordpress"
+
+#: ../settings.php:73
+msgid ""
+"Allows you to save all new youmood.me comments into your Wordpress database. "
+"In this case, you will keep all your comments even if you uninstall the "
+"plugin."
+msgstr ""
+"Cette option vous permet d'enregistrer tous les commentaires youmood.medans "
+"la base de données Wordpress. Dans ce cas, tous les commentaires youmood."
+"meseront accessibles ultérieurement même si vous choisissez de désinstaller "
+"youmood.me"
+
+#: ../settings.php:77 ../settings.php:86 ../settings.php:149
+#: ../settings.php:158
+msgid "Enable"
+msgstr "Activer"
+
+#: ../settings.php:81 ../settings.php:153
+msgid "Video player:"
+msgstr "Lecteur vidéo:"
+
+#: ../settings.php:82 ../settings.php:154
+msgid ""
+"This feature replaces all YouTube/Dailymotion/Vimeo videos on your website "
+"with the youmood.me video player."
+msgstr ""
+"Ce module remplace toutes les vidéos YouTube/Dailymotion/Vimeo de votre site "
+"par le lecteur vidéo youmood.me."
+
+#: ../settings.php:96
+msgid "Targeted content mode"
+msgstr "Mode contenu ciblé"
+
+#: ../settings.php:100
+msgid ""
+"The targeted content mode allows your users to comment specific parts of "
+"articles: sentences, paragraphs, images and videos inline."
+msgstr ""
+"Le contenu ciblé permet à vos utilisateurs de laisser des commentairessous "
+"forme d'annotations. Ils peuvent ainsi directement commenter des "
+"paragraphes, images ou vidéos tout au long de la page."
+
+#: ../settings.php:105
+msgid "Turn on targeted mode"
+msgstr "Activer le mode contenu ciblé"
+
+#: ../settings.php:106
+msgid "You can define where the plugin will be loaded on your website."
+msgstr "Vous pouvez définir à quel endroit de votre site le plugin sera chargé"
+
+#: ../settings.php:107
+msgid "Default: On all pages and posts."
+msgstr "Par défault : sur toutes les pages et articles"
+
+#: ../settings.php:111
+msgid "Everywhere"
+msgstr "Partout"
+
+#: ../settings.php:113
+msgid "Posts"
+msgstr "Articles"
+
+#: ../settings.php:115
+msgid "Pages"
+msgstr "Pages"
+
+#: ../settings.php:120
+msgid ""
+"You can load the plugin in a specific container. You must enter the id (#) "
+"of an HTML container"
+msgstr ""
+"Vous pouvez charger le plugin dans un élément HTML particulier. Vous devez "
+"entrer son id (#)."
+
+#: ../settings.php:123
+msgid "ex: content (without #)"
+msgstr "ex : comment-container (sans #)"
+
+#: ../settings.php:127
+msgid "Define targetable content:"
+msgstr "Définir le contenu cliquable:"
+
+#: ../settings.php:128
+msgid "Users can only comment on these HTML element."
+msgstr "Les utilisateurs ne peuvent que commenter sur ces éléments HTML."
+
+#: ../settings.php:129
+msgid "Default: img, p, li, h1, h2, h3, h4, h5, h6, span."
+msgstr "Par défault: img, p, li, h1, h2, h3, h4, h5, h6, span."
+
+#: ../settings.php:136
+msgid "Set a top margin"
+msgstr "Définir un décalage en hauteur"
+
+#: ../settings.php:137
+msgid "Pushes the plugin down from the top of the page. Unit is pixel."
+msgstr "Décale le plugin du haut de la page. Unité en pixel."
+
+#: ../settings.php:144
+msgid "Synchronize youmood.me comments and wordpress comments:"
+msgstr ""
+"Synchroniser les commentaires youmood.me avec les commentaires Wordpress"
+
+#: ../settings.php:145
+msgid ""
+"Allows you to save all new youmood.me comments into your wordpress database. "
+"In this case, you will keep all your comments even if you uninstall the "
+"plugin."
+msgstr ""
+"Cette option vous permet d'enregistrer tous les commentaires youmood.medans "
+"la base de données Wordpress. Dans ce cas, tous les commentaires youmood."
+"meseront accessibles ultérieurement même si vous choisissez de désinstaller "
+"youmood.me"
+
+#: ../settings.php:168
+msgid "About"
+msgstr "À propos"
+
+#: ../settings.php:170
+msgid "Feedback"
+msgstr "Feedback"
+
+#: ../settings.php:172
+msgid "Blog"
+msgstr "Blog"
+
+#: ../settings.php:274
+msgid "Your application has been authorized."
+msgstr "Votre application a été autorisée."
+
+#: ../settings.php:276
+msgid ""
+"We are now waiting for youmood.me to register your website. This may take a "
+"few seconds..."
+msgstr ""
+"Nous attendons que youmood.me enregistre votre site. Cela peut prendre "
+"quelques secondes."
+
+#: ../settings.php:319
+msgid "Getting youmood.me authorization..."
+msgstr "Obtention de l'autorisation de youmood.me…"
+
+#: ../settings.php:332 ../settings.php:448 ../settings.php:457
+msgid "Save settings"
+msgstr "Enregistrer les modifications"
+
+#: ../settings.php:340
+msgid "Login to youmood.me"
+msgstr "Connexion à youmood.me"
+
+#: ../settings.php:343 ../settings.php:370 ../settings.php:401
+#: ../settings.php:423
+msgid "Sorry, an error occurred while processing your request."
+msgstr ""
+"Désolé, une erreur s'est produite lors de l'élaboration de votre requête."
+
+#: ../settings.php:346 ../settings.php:377 ../settings.php:404
+msgid "Email"
+msgstr "Email"
+
+#: ../settings.php:350 ../settings.php:381
+msgid "Password"
+msgstr "Mot de passe"
+
+#: ../settings.php:354
+msgid "Login"
+msgstr "Se connecter"
+
+#: ../settings.php:357
+msgid "Not registered?"
+msgstr "Vous n'avez pas de compte?"
+
+#: ../settings.php:357
+msgid "Create an Account"
+msgstr "Créer un compte"
+
+#: ../settings.php:358
+msgid "Lost your password?"
+msgstr "Vous avez perdu votre mot de passe?"
+
+#: ../settings.php:358
+msgid "Click here to recover"
+msgstr "Cliquez ici pour le récupérer"
+
+#: ../settings.php:364
+msgid "Sign up to youmood.me"
+msgstr "S'inscrire sur youmood.me"
+
+#: ../settings.php:373
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: ../settings.php:386 ../settings.php:434
+msgid "Register"
+msgstr "Enregistrer"
+
+#: ../settings.php:389
+msgid "I already have an account"
+msgstr "J'ai déjà un compte"
+
+#: ../settings.php:389
+msgid "let me log in"
+msgstr "laissez moi me connecter"
+
+#: ../settings.php:395
+msgid "Retrieve your password"
+msgstr "Retrouver mon mot de passe"
+
+#: ../settings.php:408
+msgid "Send"
+msgstr "Envoyer"
+
+#: ../settings.php:411 ../settings.php:437
+msgid "Go back"
+msgstr "Retour"
+
+#: ../settings.php:417
+msgid "Register your application"
+msgstr "Enregistrer votre application"
+
+#: ../settings.php:426
+msgid ""
+"You need to create an application in order to install any youmood.me package "
+"on your website."
+msgstr ""
+"Vous devez d'abord créer une application avant d'installer tout module "
+"youmood.me sur votre site."
+
+#: ../settings.php:427
+msgid "Please choose your application name."
+msgstr "Veuillez choisir un nom d'application."
+
+#: ../settings.php:430
+msgid "Application name"
+msgstr "Nom de l'application"
+
+#: ../settings.php:470
+msgid "Reset plugin data"
+msgstr "Réinitialiser les données du plugin"
+
+#~ msgid "Sorry, an error occurred while authenticating your application."
+#~ msgstr ""
+#~ "Désolé, une erreur s'est produite lors de l'élaboration de votre requête."
+
+#~ msgid "Iframe mode:"
+#~ msgstr "Mode iFrame"
+
+#~ msgid ""
+#~ "Activating the iframe mode improves stability but disables SEO "
+#~ "compatibility."
+#~ msgstr ""
+#~ "Activer le mode iframe améliore la stabilité mais désactive la "
+#~ "compatibilité SEO."
+
+#~ msgid "First of all, you need to register your website to youmood.me."
+#~ msgstr ""
+#~ "Avant de commencer, vous devez enregistrer votre site sur youmood.me."
+
+#~ msgid "Please click the button bellow."
+#~ msgstr "Veuillez cliquer sur le bouton ci-dessous."
+
+#~ msgid "Options"
+#~ msgstr "Options"
